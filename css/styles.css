@@ -18,6 +18,9 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 }
+a {
+	text-decoration: none;
+ }
 ul {
 	list-style: none;
 }
@@ -74,9 +77,13 @@ button {
 	line-height: 1.07;
 	text-align: center;
 }
-.hero-button {
+.primary-button {
 	background-color: var(--focus-state);
 	color: var(--background-primary);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
 }
 /* sections */
 .title {
@@ -114,6 +121,10 @@ button {
 .filter-menu [type="button"] {
 	background-color: var(--Accent);
 	color: var(--focus-state);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
 }
 .portfolio-list {
 	color: var(--body-text);
